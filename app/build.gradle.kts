@@ -60,9 +60,6 @@ dependencies {
     implementation(libs.compose.material3)
     implementation(libs.navigation.compose)
 
-    // OkHttp for logging in networking
-    implementation(libs.okhttp.logging)
-
     // Compose dependencies for runtime and UI
     implementation(libs.androidx.runtime.android)
 

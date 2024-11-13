@@ -29,7 +29,7 @@ fun WeatherScreen(
 ) {
     val context = LocalContext.current
     val weather by viewModel.weather.observeAsState()
-    val cityName by viewModel.cityName.collectAsState()
+    val cityName by viewModel.cityName.observeAsState()
     var cityInput by remember { mutableStateOf("") }
 
     // Handle location permission request
