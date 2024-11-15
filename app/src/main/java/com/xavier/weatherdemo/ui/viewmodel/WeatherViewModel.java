@@ -22,6 +22,9 @@ import java.util.concurrent.Executors;
 
 import javax.inject.Inject;
 
+import dagger.hilt.android.lifecycle.HiltViewModel;
+
+@HiltViewModel
 public class WeatherViewModel extends ViewModel {
 
     private final WeatherRepository repository;
